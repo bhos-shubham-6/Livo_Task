@@ -1,0 +1,52 @@
+[
+  {
+    "id": "Q1",
+    "question": "In neural networks, what exactly is a neuron computing in the 3Blue1Brown explanation, and why is a nonlinearity needed after weighted sums?",
+    "answer": "A neuron computes a weighted sum of its inputs plus a bias, then applies an activation function. The nonlinearity is essential because stacking only linear operations collapses to one linear transformation, which cannot model complex decision boundaries.",
+    "source": {
+      "video_title": "3Blue1Brown — But what is a Neural Network?",
+      "url": "https://www.youtube.com/watch?v=aircAruvnKk",
+      "timestamp_or_section": "weighted sums and activation functions (approx. 03:30-07:00)"
+    }
+  },
+  {
+    "id": "Q2",
+    "question": "How does gradient descent conceptually improve model performance during training?",
+    "answer": "Gradient descent updates parameters in the direction that reduces loss, using derivatives to estimate how each weight affects prediction error. Repeated small updates over many examples gradually move the model toward lower-error regions of parameter space.",
+    "source": {
+      "video_title": "3Blue1Brown — But what is a Neural Network?",
+      "url": "https://www.youtube.com/watch?v=aircAruvnKk",
+      "timestamp_or_section": "training and backprop intuition (approx. 12:00-17:00)"
+    }
+  },
+  {
+    "id": "Q3",
+    "question": "In the transformer video, what problem does self-attention solve better than fixed-window processing?",
+    "answer": "Self-attention lets each token weigh relevance of all other tokens, capturing long-range dependencies without forcing information through many recurrent steps or fixed local windows. This improves contextual understanding for sequences where important cues are far apart.",
+    "source": {
+      "video_title": "3Blue1Brown — Transformers, the tech behind LLMs",
+      "url": "https://www.youtube.com/watch?v=wjZofJX0v4M",
+      "timestamp_or_section": "self-attention motivation (approx. 04:00-08:30)"
+    }
+  },
+  {
+    "id": "Q4",
+    "question": "According to introductory deep learning explanations, how is deep learning different from traditional ML feature engineering?",
+    "answer": "Traditional ML often depends on manually engineered features, while deep learning learns hierarchical representations automatically from raw or minimally processed data through multiple layers. This reduces hand-crafted feature effort and can scale better with data and compute.",
+    "source": {
+      "video_title": "CampusX — What is Deep Learning? (Hindi)",
+      "url": "https://www.youtube.com/watch?v=fHF22Wxuyw4",
+      "timestamp_or_section": "core definition and comparison (approx. 02:00-06:30)"
+    }
+  },
+  {
+    "id": "Q5",
+    "question": "What practical factors are emphasized for successful deep learning projects besides model architecture?",
+    "answer": "Data quality and quantity, preprocessing consistency, objective selection, evaluation setup, and sufficient compute are critical. Even strong models underperform if labels are noisy, splits are flawed, or training and evaluation pipelines are weak.",
+    "source": {
+      "video_title": "CodeWithHarry — All About ML & Deep Learning (Hindi)",
+      "url": "https://www.youtube.com/watch?v=C6YtPJxNULA",
+      "timestamp_or_section": "practical workflow and pitfalls (approx. 14:00-22:00)"
+    }
+  }
+]
