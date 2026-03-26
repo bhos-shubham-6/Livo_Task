@@ -4,8 +4,6 @@
 pip install youtube-transcript-api
 ```
 
-Run:
-
 ```bash
 python scripts/fetch_transcripts.py
 ```
